@@ -1,0 +1,61 @@
+name: Test
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    name: Build project
+    env:
+      PUBLIC_URL: ${{ secrets.PUBLIC_URL }}
+      GCP_SERVICE_ACCOUNT: ${{ secrets.GCP_SERVICE_ACCOUNT }}
+      INTERCOM_CLIENT_ID: ${{ secrets.INTERCOM_CLIENT_ID }}
+      INTERCOM_CLIENT_SECRET: ${{ secrets.INTERCOM_CLIENT_SECRET }}
+      INTERCOM_CALLBACK_URL: ${{ secrets.INTERCOM_CALLBACK_URL }}
+      INTERCOM_ACCESS_TOKEN: ${{ secrets.INTERCOM_ACCESS_TOKEN }}
+      INTERCOM_SPACE_ID: ${{ secrets.INTERCOM_SPACE_ID }}
+      JWT_SECRET: ${{ secrets.JWT_SECRET }}
+      JWT_SECRET_ZENDESK: ${{ secrets.JWT_SECRET_ZENDESK }}
+      POSTMARK_SERVER_TOKEN: ${{ secrets.POSTMARK_SERVER_TOKEN }}
+      POSTMARK_FROM_EMAIL: ${{ secrets.POSTMARK_FROM_EMAIL }}
+      POSTMARK_VIDEO_RECORDING_TEMPLATE_ID:
+        ${{ secrets.POSTMARK_VIDEO_RECORDING_TEMPLATE_ID }}
+      POSTMARK_VIDEO_RECORDING_TEMPLATE_ALIAS:
+        ${{ secrets.POSTMARK_VIDEO_RECORDING_TEMPLATE_ALIAS }}
+      POSTMARK_INTERCOM_INSTALL_TEMPLATE_ID:
+        ${{ secrets.POSTMARK_INTERCOM_INSTALL_TEMPLATE_ID }}
+      POSTMARK_INTERCOM_INSTALL_TEMPLATE_ALIAS:
+        ${{ secrets.POSTMARK_INTERCOM_INSTALL_TEMPLATE_ALIAS }}
+      POSTMARK_ZENDESK_INSTALL_TEMPLATE_ID:
+        ${{ secrets.POSTMARK_ZENDESK_INSTALL_TEMPLATE_ID }}
+      POSTMARK_ZENDESK_INSTALL_TEMPLATE_ALIAS:
+        ${{ secrets.POSTMARK_ZENDESK_INSTALL_TEMPLATE_ALIAS }}
+      GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+      GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+      GOOGLE_CALLBACK_URL: ${{ secrets.GOOGLE_CALLBACK_URL }}
+      CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+      CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+      CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+      CLOUDINARY_ENV: ${{ secrets.CLOUDINARY_ENV }}
+      HUBSPOT_CLIENT_ID: ${{ secrets.HUBSPOT_CLIENT_ID }}
+      HUBSPOT_CLIENT_SECRET: ${{ secrets.HUBSPOT_CLIENT_SECRET }}
+      HUBSPOT_REDIRECT_URI: ${{ secrets.HUBSPOT_REDIRECT_URI }}
+      COOKIE_SESSION_KEY: ${{ secrets.COOKIE_SESSION_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set up node
+        uses: actions/setup-node@v1
+      - run: npm install
+      - run: npm run build
+      - name: Slack notification
+        if: always()
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_USERNAME: Videosupport-Bot
+          SLACK_ICON: https://drive.google.com/uc?id=1c_-Pukrg7Vvr1T4daJEGWGnYHSPMcSzr
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_FOOTER: ''
+          SLACK_COLOR: ${{ job.status }}
+          MSG_MINIMAL: commit,actions url

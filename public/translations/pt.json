@@ -1,0 +1,107 @@
+{
+  "orientation_screen": {
+    "title": "Atenção",
+    "description":"Use seu telefone na orientação retrato (📱) ou digitalize o código QR.",
+    "qr_description": "escanear o código qr"
+  },
+  "onboarding_screen": {
+    "description": "Ajudar você é nosso super poder. Aqui estão os passos:",
+    "button_copy": "Começando",
+    "step_one": {
+      "title": "Gravar / fazer upload",
+      "description":"Grave ou envie um vídeo"
+    },
+    "step_two": {
+      "title": "Nota anexada",
+      "description": "Tome nota"
+    },
+    "step_three": {
+      "title": "Mandar",
+      "description": "Envie o vídeo"
+    }
+  },
+  "record_screen": {
+    "button_copy": "Gravar vídeo",
+    "progress_copy": "Passo",
+    "loading_copy": "Carregando",
+    "selfie_copy": {
+      "title": "Modo Selfie"
+    },
+    "hardware_copy": {
+      "title": "Modo de Hardware",
+      "description": "Procurando registrar um produto de hardware? Leia o código QR ou copie o link para começar.",
+      "button_copy": "Cópia"
+    },
+    "unsupported_copy": {
+      "title": "Não suportado",
+      "description": "Seu navegador não permite a gravação de vídeo. Recomendamos o Google Chrome ou o uso de um smartphone. Leia o código QR ou copie o link para começar."
+    }
+  },
+  "recorded_screen": {
+    "top_instructions_play_copy": "toque para pausar o vídeo",
+    "top_instructions_pause_copy": "toque para reproduzir o vídeo",
+    "bottom_instructions_copy": "Adicione uma nota ou envie um vídeo",
+    "primary_button": {
+      "button_copy": "Mandar"
+    },
+    "secondary_button": {
+      "button_copy": "Nota anexada",
+      "button_copy_edit":  "Editar nota"
+    },
+    "toast_sending_copy": "Mandar",
+    "toast_uploading_copy": "Um momento",
+    "toast_uploading_success_copy": "Upload concluído",
+    "toast_uploading_fail_copy": "Falha no upload",
+    "toast_sent_copy": "Postou",
+    "toast_sent_failed_copy": "Envio falhou",
+    "toast_message_added_copy": "Nota adicionada",
+    "toast_mute_copy": "Som desligado",
+    "toast_unmute_copy": "Som ligado"
+  },
+  "feedback_modal": {
+    "title": "Pergunta curta 🙈",
+    "description": "Como foi sua experiência com suporte de vídeo?",
+    "toast_success": "Obrigado! 💜",
+    "toast_fail": "Envio falhou"
+  },
+  "email_modal": {
+    "title": "Vídeo enviado ✅",
+    "description": "Deixe seu e-mail e receba uma cópia do vídeo.",
+    "input_button_copy": "Confirmar e enviar",
+    "input_description": "Seu email",
+    "input_label": "Email",
+    "no_input_button_copy": "Não, obrigado",
+    "toast_email_sending_copy": "Enviar email",
+    "toast_email_sent_copy": "Email enviado",
+    "toast_email_invalid_copy": "Endereço de email invalido",
+    "toast_email_fail_copy": "Envio falhou"
+  },
+  "edit_email_modal": {
+    "title": "Editar e-mail",
+    "description": "Alterar e confirmar e-mail"
+  },
+  "complete_modal": {
+    "title": "Perfeito 👍",
+    "description": "Grave um novo vídeo ou siga as instruções.",
+    "support_reply": {
+      "description": "Copie e compartilhe a gravação com seu cliente:"
+    },
+    "videocopy_copy": "Uma cópia foi enviada para",
+    "edit_button_copy": "Editar",
+    "primary_button_copy": "Grave um novo vídeo",
+    "secondary_button_copy": "Terminei"
+  },
+  "add_message_modal": {
+    "title": "Nota anexada",
+    "description": "Adicione uma nota e nós faremos o resto.",
+    "input_description": "Deixe um recado rápido.",
+    "button_copy": "Confirmar"
+  },
+  "camera_denied_screen": {
+    "title": "Permitir permissões de câmera e microfone",
+    "subtitle": "Como faço para resolver isso?",
+    "description": "Toque no símbolo de cadeado (🔒) na barra de endereço do seu navegador e permita as permissões de áudio e vídeo. Salve e atualize esta página.",
+    "second_solution_seperator": "ou",
+    "button_copy": "Envio vídeo"
+  }
+}

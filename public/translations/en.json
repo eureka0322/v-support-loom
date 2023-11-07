@@ -1,0 +1,107 @@
+{
+  "orientation_screen": {
+    "title": "Attention",
+    "description":"Please use your phone in (📱) portrait mode",
+    "qr_description": "scan qr-code"
+  },
+  "onboarding_screen": {
+    "description": "Helping you is our superpower. See how it works:",
+    "button_copy": "Get started",
+    "step_one": {
+      "title": "Record / Upload",
+      "description":"Start by capturing the issue."
+    },
+    "step_two": {
+      "title": "Message",
+      "description": "Add an optional message."
+    },
+    "step_three": {
+      "title": "Send",
+      "description": "Finish off by pressing send."
+    }
+  },
+  "record_screen": {
+    "button_copy": "Record a video",
+    "progress_copy": "step",
+    "loading_copy": "loading",
+    "selfie_copy": {
+      "title": "Selfie Mode"
+    },
+    "hardware_copy": {
+      "title": "Hardware Mode",
+      "description": "Scan the QR-Code below OR copy the link to record a video with your phone.",
+      "button_copy": "Copy link"
+    },
+    "unsupported_copy": {
+      "title": "Not supported",
+      "description": "Your browser doesn't support video. We recommend using Google Chrome, or your smartphone. Copy the QR-code or use the link to get started."
+    }
+  },
+  "recorded_screen": {
+    "top_instructions_play_copy": "tap to pause video",
+    "top_instructions_pause_copy": "tap to play video",
+    "bottom_instructions_copy": "Add a message or send the video forward",
+    "primary_button": {
+      "button_copy": "Send video"
+    },
+    "secondary_button": {
+      "button_copy": "Add a message",
+      "button_copy_edit":  "Edit message"
+    },
+    "toast_sending_copy": "Sending",
+    "toast_uploading_copy": "Loading...",
+    "toast_uploading_success_copy": "Upload successful",
+    "toast_uploading_fail_copy": "Upload failed",
+    "toast_sent_copy": "Sent",
+    "toast_sent_failed_copy": "Sending failed",
+    "toast_message_added_copy": "Message added",
+    "toast_mute_copy": "Sound off",
+    "toast_unmute_copy": "Sound on"
+  },
+  "feedback_modal": {
+    "title": "Your opinion matters",
+    "description": "How was your experience with videosupport?",
+    "toast_success": "Thank you!",
+    "toast_fail": "Sending failed"
+  },
+  "email_modal": {
+    "title": "Video sent ✅",
+    "description": "Leave your email to receive a copy.",
+    "input_button_copy": "Submit & send",
+    "input_description": "Your email",
+    "input_label": "Email",
+    "no_input_button_copy": "Nee, bedankt",
+    "toast_email_sending_copy": "Sending...",
+    "toast_email_sent_copy": "Email sent",
+    "toast_email_invalid_copy": "Invalid email",
+    "toast_email_fail_copy": "Sending failed"
+  },
+  "edit_email_modal": {
+    "title": "Edit email",
+    "description": "Edit and submit"
+  },
+  "complete_modal": {
+    "title": "You're all set! 👍",
+    "description": "Record a new video or follow the instructions.",
+    "support_reply": {
+      "description": "Copy and share the recording:"
+    },
+    "videocopy_copy": "A copy is sent to:",
+    "edit_button_copy": "Edit",
+    "primary_button_copy": "Record a new video",
+    "secondary_button_copy": "I'm done"
+  },
+  "add_message_modal": {
+    "title": "Add a message",
+    "description": "Leave us a message & we take care of the rest.",
+    "input_description": "Help us better understand the issue.",
+    "button_copy": "Submit"
+  },
+  "camera_denied_screen": {
+    "title": "Please enable the audio and camera permissions",
+    "subtitle": "How to fix?",
+    "description": "Tap the lock (🔒) icon in your browser's address bar, allow the audio and video permissions. Save and refresh this page.",
+    "second_solution_seperator": "or",
+    "button_copy": "Upload video"
+  }
+}

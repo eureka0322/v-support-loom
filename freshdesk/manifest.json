@@ -1,0 +1,22 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshchat": {
+      "location": {
+        "conversation_user_info": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      }
+    }
+  },
+  "whitelisted-domains": [
+    "https://jvsio.eu.ngrok.io",
+    "https://app.videosupport.io",
+    "https://staging.videosupport.io"
+  ],
+  "engines": {
+    "node": "12.22.11",
+    "fdk": "7.5.1"
+  }
+}

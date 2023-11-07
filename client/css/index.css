@@ -1,0 +1,372 @@
+@import 'reset-css'; /* NPM Package */
+
+@font-face {
+  font-family: 'Matter';
+  src: url('../../public/fonts/matter/Matter-Regular.woff2') format('woff2'),
+    url('../../public/fonts/matter/Matter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('../../public/fonts/matter/Matter-SemiBold.woff2') format('woff2'),
+    url('../../public/fonts/matter/Matter-SemiBold.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Matter';
+  src: url('../../public/fonts/matter/Matter-Bold.woff2') format('woff2'),
+    url('../../public/fonts/matter/Matter-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --primary: #8614f8;
+  --primary-hsl: #e6cdfe;
+  --white: white;
+  --black: #0b0b0b;
+  --red: #f81414;
+  --light-gray: #e5e6e6;
+  --light-blue: #fafafa;
+  --dark-gray: #a1a1a1;
+  --fs-xs: 12px;
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 18px;
+  --fs-xl: 22px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-font-smoothing: antialiased;
+  font-family: 'Matter', -apple-system, system-ui, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-weight: normal;
+
+  width: 100%;
+  height: 100%;
+
+  color: #0b0b0b;
+  overflow-x: hidden;
+
+  font-size: var(--fs-md);
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+video {
+  width: 100%;
+  max-width: 100%;
+}
+
+input,
+textarea {
+  border: none;
+  font-family: 'Matter', -apple-system, system-ui, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: 'Matter', -apple-system, system-ui, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.videosupport-io {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.dpf {
+  display: flex;
+}
+
+.dpif {
+  display: inline-flex;
+}
+
+.rnw {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.rw {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cnw {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jcfs {
+  justify-content: flex-start;
+}
+
+.aife {
+  align-items: flex-end;
+}
+
+.aifs {
+  align-items: flex-start;
+}
+
+.jcfe {
+  justify-content: flex-end;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+.aic {
+  align-items: center;
+}
+
+.aifs {
+  align-items: flex-start;
+}
+
+.container--web {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.vsio-text--uppercase {
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.vsio-subheadline--lg {
+  font-size: var(--fs-lg);
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.vsio-button {
+  width: auto;
+  font-size: var(--fs-md);
+  font-weight: 500;
+  border-radius: 5px;
+  line-height: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  pointer-events: all;
+  -webkit-tap-highlight-color: transparent;
+}
+.vsio-button:disabled,
+.vsio-button--disabled {
+  cursor: not-allowed;
+}
+
+.vsio-button--disabled {
+  pointer-events: none;
+}
+
+.vsio-button--stretch {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.vsio-button--xs {
+  padding: 4px 8px;
+}
+
+.vsio-button--sm {
+  padding: 8px 16px;
+}
+.vsio-button--sm.vsio-button--icon {
+  padding: 8px 12px;
+}
+
+.vsio-button--md {
+  padding: 13px 16px;
+}
+
+.vsio-button--md.vsio-button--icon {
+  padding: 13px 12px;
+}
+
+.vsio-button--lg {
+  padding: 18px 24px;
+}
+
+.vsio-button--primary {
+  background: #8614f8;
+  box-shadow: 0 1px 1px 0 rgba(11, 11, 11, 0.25);
+  color: var(--white);
+}
+.vsio-button--primary-active,
+.vsio-button--primary:focus,
+.vsio-button--primary:active {
+  border: 1px solid #5e05b7;
+  box-shadow: 0 0 0 3px rgba(134, 20, 248, 0.5);
+  outline: none;
+}
+.vsio-button--primary:hover {
+  background: #5e05b7;
+}
+.vsio-button--primary:disabled {
+  background: #5e05b7;
+}
+.vsio-button--secondary {
+  background: #ffffff;
+  border: 1px solid #e5e6e6;
+  box-shadow: 0 1px 1px 0 rgba(11, 11, 11, 0.05);
+  color: var(--primary);
+}
+.vsio-button--action.vsio-button--secondary {
+  color: var(--black);
+}
+.vsio-button.vsio-button--rounded {
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 1px 1px 0 rgba(11, 11, 11, 0.2);
+  border-radius: 27px;
+}
+.vsio-button.vsio-button--rounded:focus,
+.vsio-button.vsio-button--rounded:active {
+  outline: none;
+  border: 1px solid var(--black);
+  box-shadow: 0 0 0 3px rgba(11, 11, 11, 0.1);
+}
+.vsio-button.vsio-button--rounded:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.vsio-button--secondary-active,
+.vsio-button--secondary:focus,
+.vsio-button--secondary:active {
+  border: 1px solid #5e05b7;
+  box-shadow: 0 0 0 3px rgba(134, 20, 248, 0.5);
+  outline: none;
+}
+.vsio-button--secondary:hover {
+  background: #eeeeee;
+}
+.vsio-button--secondary:disabled {
+  background: #eeeeee;
+}
+.vsio-button--error {
+  color: var(--white);
+  background: var(--red);
+}
+.vsio-button--error:focus,
+.vsio-button--error:active {
+  border: 1px solid #b90000;
+  box-shadow: 0 0 0 3px rgba(248, 20, 20, 0.5);
+  outline: none;
+}
+.vsio-button--error:hover {
+  background: #b90000;
+}
+.vsio-button--error:disabled {
+  background: #b90000;
+}
+
+.vsio-ui-button {
+  padding: 12px;
+  border-radius: 3px;
+  pointer-events: all;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.vsio-ui-button:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.vsio-ui-container {
+  width: 100%;
+  max-width: 425px;
+  margin: 0 auto;
+}
+
+.vsio-ui-top {
+  position: absolute;
+  top: 24px;
+  pointer-events: none;
+}
+.vsio-ui-bottom {
+  position: absolute;
+  bottom: 48px;
+  pointer-events: none;
+}
+
+.vsio-ui-bottom .vsio-ui-button, .vsio-ui-bottom .fileupload-label {
+  min-width: 140px;
+}
+
+.vsio-spacer--horizontal {
+  display: flex;
+  margin: 0 8px;
+}
+
+.vsio-spacer--4px {
+  margin: 0 4px;
+}
+
+.grid-24 {
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  column-gap: 8px;
+}
+
+.settings__form {
+  margin-bottom: 32px;
+}
+
+.videosupport-logo-1pt25 {
+  transform: scale(1.25);
+}
+
+@media only screen and (max-width: 465px) {
+  .vsio-ui-container {
+    padding: 0 24px;
+  }
+}

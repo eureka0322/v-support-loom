@@ -1,0 +1,107 @@
+{
+  "orientation_screen": {
+    "title": "Aandacht",
+    "description":"Gebruik je telefoon in (📱) portretmodus of scan de QR Code.",
+    "qr_description": "scan qr-code"
+  },
+  "onboarding_screen": {
+    "description": "Helping you is our superpower. Hier zijn de stappen:",
+    "button_copy": "Ga van start",
+    "step_one": {
+      "title": "Record / Upload",
+      "description":"Neem op of upload video"
+    },
+    "step_two": {
+      "title": "Notitie",
+      "description": "Voeg notitie toe"
+    },
+    "step_three": {
+      "title": "Verzend",
+      "description": "Verzend de video"
+    }
+  },
+  "record_screen": {
+    "button_copy": "Neem video op",
+    "progress_copy": "stap",
+    "loading_copy": "laden",
+    "selfie_copy": {
+      "title": "Selfie Modus"
+    },
+    "hardware_copy": {
+      "title": "Hardware Modus",
+      "description": "Op zoek naar het recorden van een hardware product? Scan de QR-code of kopieer de link om van start te gaan.",
+      "button_copy": "Kopieer"
+    },
+    "unsupported_copy": {
+      "title": "Niet ondersteund",
+      "description": "Uw browser staat geen videopnames toe. We raden Google Chrome aan of het gebruik van een smartphone. Scan de QR-code of kopieer de link om van start te gaan."
+    }
+  },
+  "recorded_screen": {
+    "top_instructions_play_copy": "tap om video te pauzeren",
+    "top_instructions_pause_copy": "tap om video af te spelen",
+    "bottom_instructions_copy": "Voeg notitie toe of verzend",
+    "primary_button": {
+      "button_copy": "Verzend"
+    },
+    "secondary_button": {
+      "button_copy": "Voeg notitie toe",
+      "button_copy_edit":  "Bewerk notitie"
+    },
+    "toast_sending_copy": "Verzenden",
+    "toast_uploading_copy": "Even geduld",
+    "toast_uploading_success_copy": "Uploaden voltooid",
+    "toast_uploading_fail_copy": "Uploaden mislukt",
+    "toast_sent_copy": "Verzonden",
+    "toast_sent_failed_copy": "Verzenden mislukt",
+    "toast_message_added_copy": "Notitie toegevoegd",
+    "toast_mute_copy": "Geluid uit",
+    "toast_unmute_copy": "Geluid aan"
+  },
+  "feedback_modal": {
+    "title": "Kort vraagje 🙈",
+    "description": "Hoe was jouw ervaring met videosupport?",
+    "toast_success": "Bedankt! 💜",
+    "toast_fail": "Verzenden mislukt"
+  },
+  "email_modal": {
+    "title": "Video verstuurd ✅",
+    "description": "Laat je email na en ontvang een videocopy.",
+    "input_button_copy": "Bevestig & verzend",
+    "input_description": "Jouw email",
+    "input_label": "Email",
+    "no_input_button_copy": "Nee, bedankt",
+    "toast_email_sending_copy": "Email verzenden",
+    "toast_email_sent_copy": "Email verzonden",
+    "toast_email_invalid_copy": "Ongeldig e-mailadres",
+    "toast_email_fail_copy": "Verzenden mislukt"
+  },
+  "edit_email_modal": {
+    "title": "E-mail wijzigen",
+    "description": "Wijzig je email en bevestig"
+  },
+  "complete_modal": {
+    "title": "Perfect 👍",
+    "description": "Neem een nieuwe video op of volg de instructies.",
+    "support_reply": {
+      "description": "Kopieer en deel de opname met uw klant:"
+    },
+    "videocopy_copy": "Een copy is verzonden naar",
+    "edit_button_copy": "Wijzig",
+    "primary_button_copy": "Neem nieuwe video op",
+    "secondary_button_copy": "Ik ben klaar"
+  },
+  "add_message_modal": {
+    "title": "Voeg notitie toe",
+    "description": "Voeg een notitie toe en wij doen de rest.",
+    "input_description": "Laat een korte notitie na.",
+    "button_copy": "Bevestig"
+  },
+  "camera_denied_screen": {
+    "title": "Sta camera en microfoon-rechten toe",
+    "subtitle": "Hoe los ik dit op?",
+    "description": "Tik op het slotpictogram (🔒) in de adresbalk van uw browser, sta de audio- en videorechten toe. Bewaar en ververs deze pagina.",
+    "second_solution_seperator": "of",
+    "button_copy": "Upload video"
+  }
+}

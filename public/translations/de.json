@@ -1,0 +1,107 @@
+{
+  "orientation_screen": {
+    "title": "Beachtung",
+    "description":"Verwenden Sie Ihr Telefon im (📱) Hochformat oder scannen Sie den QR-Code.",
+    "qr_description": "qr-code scannen"
+  },
+  "onboarding_screen": {
+    "description": "Ihnen zu helfen ist unsere Superkraft. Hier sind die Schritte:",
+    "button_copy": "Loslegen",
+    "step_one": {
+      "title": "Aufnehmen / Hochladen",
+      "description":"Video aufnehmen oder hochladen"
+    },
+    "step_two": {
+      "title": "Notiz hinzufügen",
+      "description": "Mache eine Notiz"
+    },
+    "step_three": {
+      "title": "Senden",
+      "description": "Senden Sie das Video"
+    }
+  },
+  "record_screen": {
+    "button_copy": "Video aufnehmen",
+    "progress_copy": "Schritt",
+    "loading_copy": "Wird geladen",
+    "selfie_copy": {
+      "title": "Selfie-Modus"
+    },
+    "hardware_copy": {
+      "title": "Hardwaremodus",
+      "description": "Möchten Sie ein Hardwareprodukt aufnehmen? Scannen Sie den QR-Code oder kopieren Sie den Link, um loszulegen.",
+      "button_copy": "Kopieren"
+    },
+    "unsupported_copy": {
+      "title": "Nicht unterstützt",
+      "description": "Ihr Browser erlaubt keine Videoaufzeichnung. Wir empfehlen Google Chrome oder die Verwendung eines Smartphones. Scannen Sie den QR-Code oder kopieren Sie den Link, um loszulegen."
+    }
+  },
+  "recorded_screen": {
+    "top_instructions_play_copy": "tap, um Video zu pausieren",
+    "top_instructions_pause_copy": "tap, um Video abzuspielen",
+    "bottom_instructions_copy": "Notiz hinzufügen oder senden",
+    "primary_button": {
+      "button_copy": "Senden"
+    },
+    "secondary_button": {
+      "button_copy": "Notiz hinzufügen",
+      "button_copy_edit":  "Notiz bearbeiten"
+    },
+    "toast_sending_copy": "Senden",
+    "toast_uploading_copy": "Warten Sie mal",
+    "toast_uploading_success_copy": "Hochladen abgeschlossen",
+    "toast_uploading_fail_copy": "Hochladen fehlgeschlagen",
+    "toast_sent_copy": "Gesendet",
+    "toast_sent_failed_copy": "Senden fehlgeschlagen",
+    "toast_message_added_copy": "Notiz hinzugefügt",
+    "toast_mute_copy": "Ton aus",
+    "toast_unmute_copy": "Ton an"
+  },
+  "feedback_modal": {
+    "title": "Kurze Frage 🙈",
+    "description": "Wie war deine Erfahrung mit Videosupport?",
+    "toast_success": "Danke! 💜",
+    "toast_fail": "Senden fehlgeschlagen"
+  },
+  "email_modal": {
+    "title": "Video gesendet ✅",
+    "description": "Hinterlassen Sie Ihre E-Mail und erhalten Sie eine Videokopie.",
+    "input_button_copy": "Bestätigen & senden",
+    "input_description": "Deine E-Mail",
+    "input_label": "E-Mail",
+    "no_input_button_copy": "Nein, danke",
+    "toast_email_sending_copy": "E-Mail senden",
+    "toast_email_sent_copy": "E-Mail gesendet",
+    "toast_email_invalid_copy": "Ungültige E-Mail-Adresse",
+    "toast_email_fail_copy": "Senden fehlgeschlagen"
+  },
+  "edit_email_modal": {
+    "title": "E-Mail bearbeiten",
+    "description": "E-Mail ändern und bestätigen"
+  },
+  "complete_modal": {
+    "title": "Perfekt 👍",
+    "description": "Nehmen Sie ein neues Video auf oder folgen Sie den Anweisungen.",
+    "support_reply": {
+      "description": "Kopieren Sie die Aufnahme und teilen Sie sie mit Ihrem Kunden:"
+    },
+    "videocopy_copy": "Eine Kopie wurde gesendet an",
+    "edit_button_copy": "Bearbeiten",
+    "primary_button_copy": "Neues Video aufnehmen",
+    "secondary_button_copy": "Ich bin fertig"
+  },
+  "add_message_modal": {
+    "title": "Notiz hinzufügen",
+    "description": "Fügen Sie eine Notiz hinzu und wir erledigen den Rest.",
+    "input_description": "Hinterlassen Sie eine kurze Notiz.",
+    "button_copy": "Bestätigen"
+  },
+  "camera_denied_screen": {
+    "title": "Kamera- und Mikrofonberechtigungen zulassen",
+    "subtitle": "Wie löse ich das?",
+    "description": "Tippen Sie in der Adressleiste Ihres Browsers auf das Schlosssymbol (🔒) und erlauben Sie die Audio- und Videoberechtigungen. Speichern und aktualisieren Sie diese Seite.",
+    "second_solution_seperator": "oder",
+    "button_copy": "Video hochladen"
+  }
+}

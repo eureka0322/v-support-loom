@@ -1,0 +1,12 @@
+{
+  "apiKey": {
+    "display_name": "API Token",
+    "description": "Enter your API token",
+    "type": "text",
+    "secure": true,
+    "required": true,
+    "type_attributes": {
+      "product": "freshchat"
+    }
+  }
+}

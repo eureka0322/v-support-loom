@@ -1,0 +1,107 @@
+{
+  "orientation_screen": {
+    "title": "Attention",
+    "description":"Utilisez votre téléphone en orientation portrait (📱) ou scannez le code QR.",
+    "qr_description": "scanner le code QR"
+  },
+  "onboarding_screen": {
+    "description": "Vous aider est notre super pouvoir. Voici les étapes:",
+    "button_copy": "Commencer",
+    "step_one": {
+      "title": "Enregistrer / Télécharger",
+      "description":"Enregistrer ou télécharger une vidéo"
+    },
+    "step_two": {
+      "title": "Note ci-jointe",
+      "description": "Prendre note"
+    },
+    "step_three": {
+      "title": "Envoyer",
+      "description": "Soumettre la vidéo"
+    }
+  },
+  "record_screen": {
+    "button_copy": "Enregistrer vidéo",
+    "progress_copy": "étape",
+    "loading_copy": "Chargement",
+    "selfie_copy": {
+      "title": "Mode Selfie"
+    },
+    "hardware_copy": {
+      "title": "Mode Matériel",
+      "description": "Vous cherchez à enregistrer un produit matériel ? Scannez le code QR ou copiez le lien pour commencer.",
+      "button_copy": "Copier"
+    },
+    "unsupported_copy": {
+      "title": "Non supporté",
+      "description": "Votre navigateur ne permet pas l'enregistrement vidéo. Nous recommandons Google Chrome ou l'utilisation d'un smartphone. Scannez le code QR ou copiez le lien pour commencer."
+    }
+  },
+  "recorded_screen": {
+    "top_instructions_play_copy": "tap pour mettre la vidéo en pause",
+    "top_instructions_pause_copy": "tap pour lire la vidéo",
+    "bottom_instructions_copy": "Ajouter une note ou envoyer",
+    "primary_button": {
+      "button_copy": "Envoyer"
+    },
+    "secondary_button": {
+      "button_copy": "Note ci-jointe",
+      "button_copy_edit":  "Note éditée"
+    },
+    "toast_sending_copy": "Envoyer",
+    "toast_uploading_copy": "Un instant",
+    "toast_uploading_success_copy": "Téléchargement terminé",
+    "toast_uploading_fail_copy": "Échec du téléchargement",
+    "toast_sent_copy": "Envoyé",
+    "toast_sent_failed_copy": "Envoi échoué",
+    "toast_message_added_copy": "Note ajoutée",
+    "toast_mute_copy": "Son désactivé",
+    "toast_unmute_copy": "Son activé"
+  },
+  "feedback_modal": {
+    "title": "Petite question 🙈",
+    "description": "Quelle a été votre expérience avec le support vidéo?",
+    "toast_success": "Merci! 💜",
+    "toast_fail": "Envoi échoué"
+  },
+  "email_modal": {
+    "title": "Vidéo envoyée ✅",
+    "description": "Laissez votre email et recevez une copie vidéo.",
+    "input_button_copy": "Confirmer et envoyer",
+    "input_description": "Votre e-mail",
+    "input_label": "E-mail",
+    "no_input_button_copy": "Non, merci",
+    "toast_email_sending_copy": "Envoyer e-mail",
+    "toast_email_sent_copy": "Email envoyé",
+    "toast_email_invalid_copy": "Adresse e-mail invalide",
+    "toast_email_fail_copy": "Envoi échoué"
+  },
+  "edit_email_modal": {
+    "title": "Modifier l'e-mail",
+    "description": "Modifier et confirmer l'e-mail"
+  },
+  "complete_modal": {
+    "title": "Parfait 👍",
+    "description": "Enregistrez une nouvelle vidéo ou suivez les instructions.",
+    "videocopy_copy": "Une copie a été envoyée à",
+    "support_reply": {
+      "description": "Copiez et partagez l'enregistrement avec votre client:"
+    },
+    "edit_button_copy": "Modifier",
+    "primary_button_copy": "Enregistrer une nouvelle vidéo",
+    "secondary_button_copy": "J'ai fini"
+  },
+  "add_message_modal": {
+    "title": "Note ci-jointe",
+    "description": "Ajoutez une note et nous ferons le reste.",
+    "input_description": "Laissez un petit mot.",
+    "button_copy": "Confirmer"
+  },
+  "camera_denied_screen": {
+    "title": "Autoriser les autorisations de la caméra et du microphone",
+    "subtitle": "Comment puis-je résoudre cela?",
+    "description": "Appuyez sur le symbole de verrouillage (🔒) dans la barre d'adresse de votre navigateur et autorisez les autorisations audio et vidéo. Enregistrer et actualiser cette page.",
+    "second_solution_seperator": "ou alors",
+    "button_copy": "Télécharger une video"
+  }
+}

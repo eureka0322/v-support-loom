@@ -1,0 +1,27 @@
+name: Deploy to staging 
+
+on:
+  push:
+    branches:
+      dev
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "videosupport-io-staging"
+          heroku_email: "joao@videosupport.io"
+          branch: dev
+      - uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_USERNAME: Videosupport-Bot
+          SLACK_ICON: https://drive.google.com/uc?id=1c_-Pukrg7Vvr1T4daJEGWGnYHSPMcSzr
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_MESSAGE: 'Deployed to heroku staging'
+          SLACK_COLOR: ${{ job.status }}
+          SLACK_FOOTER: ''
+

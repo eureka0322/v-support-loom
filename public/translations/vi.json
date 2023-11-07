@@ -1,0 +1,107 @@
+{
+  "orientation_screen": {
+    "title": "Lưu Ý",
+    "description":"Vui lòng sử dụng điện thoại của bạn ở chế độ màn hình dọc (📱)",
+    "qr_description": "quét mã qr"
+  },
+  "onboarding_screen": {
+    "description": "Giúp đỡ bạn chính là siêu năng lực của chúng tôi. Hãy tìm hiểu cách thức nó hoạt động:",
+    "button_copy": "Bắt đầu ngay",
+    "step_one": {
+      "title": "Quay / Tải Lên",
+      "description":"Bắt đầu bằng cách chụp lại vấn đề.."
+    },
+    "step_two": {
+      "title": "Gửi tin nhắn",
+      "description": "Thêm tin nhắn tùy chọn."
+    },
+    "step_three": {
+      "title": "Gửi",
+      "description": "Hoàn tất bằng cách nhấn gửi."
+    }
+  },
+  "record_screen": {
+    "button_copy": "Quay lại một video",
+    "progress_copy": "bước",
+    "loading_copy": "đang tải",
+    "selfie_copy": {
+      "title": "Chế Độ Selfie"
+    },
+    "hardware_copy": {
+      "title": "Chế Độ Phần Cứng",
+      "description": "Quét Mã QR bên dưới HOẶC sao chép liên kết để quay lại một video bằng điện thoại của bạn.",
+      "button_copy": "Sao chép liên kết"
+    },
+    "unsupported_copy": {
+      "title": "Không được hỗ trợ",
+      "description": "Trình duyệt của bạn không cho phép quay video. Chúng tôi đề xuất nên sử dụng Google Chrome hoặc một điện thoại thông minh. Quét Mã QR bên dưới HOẶC sao chép liên kết để bắt đầu."
+    }
+  },
+  "recorded_screen": {
+    "top_instructions_play_copy": "ấn để dừng video",
+    "top_instructions_pause_copy": "ấn để phát video",
+    "bottom_instructions_copy": "Thêm tin nhắn hoặc gửi video",
+    "primary_button": {
+      "button_copy": "Gửi video"
+    },
+    "secondary_button": {
+      "button_copy": "Thêm tin nhắn",
+      "button_copy_edit":  "Biên tập"
+    },
+    "toast_sending_copy": "Đang gửi",
+    "toast_uploading_copy": "Đang tải",
+    "toast_uploading_success_copy": "Tải lên thành công",
+    "toast_uploading_fail_copy": "Tải lên thất bại",
+    "toast_sent_copy": "Đã gửi",
+    "toast_sent_failed_copy": "Gửi thất bại",
+    "toast_message_added_copy": "Đã thêm tin nhắn",
+    "toast_mute_copy": "Tắt âm thanh",
+    "toast_unmute_copy": "Bật âm thanh"
+  },
+  "feedback_modal": {
+    "title": "Ý kiến của bạn rất quan trọng",
+    "description": "Bạn thấy thế nào khi trải nghiệm videosupport?",
+    "toast_success": "Cám ơn bạn!",
+    "toast_fail": "Gửi thất bại"
+  },
+  "email_modal": {
+    "title": "Đã gửi video",
+    "description": "Để lại email của bạn để nhận một bản sao.",
+    "input_button_copy": "Nộp & gửi",
+    "input_description": "Email của bạn",
+    "input_label": "Email",
+    "no_input_button_copy": "Không cám ơn",
+    "toast_email_sending_copy": "Đang gửi...",
+    "toast_email_sent_copy": "Đã gửi email",
+    "toast_email_invalid_copy": "Email không hợp lệ",
+    "toast_email_fail_copy": "Gửi thất bại"
+  },
+  "edit_email_modal": {
+    "title": "Chỉnh sửa email",
+    "description": "Chỉnh sửa và nộp"
+  },
+  "complete_modal": {
+    "title": "Bạn đã xong rồi đấy! 👍",
+    "description": "Quay video mới hoặc làm theo hướng dẫn.",
+    "support_reply": {
+      "description": "Sao chép và chia sẻ video:"
+    },
+    "videocopy_copy": "Một bản sao đã được gửi đến:",
+    "edit_button_copy": "Chỉnh sửa",
+    "primary_button_copy": "Quay một video mới",
+    "secondary_button_copy": "Tôi đã hoàn thành"
+  },
+  "add_message_modal": {
+    "title": "Thêm tin nhắn",
+    "description": "Để lại tin nhắn cho chúng tôi & chúng tôi sẽ lo liệu phần còn lại.",
+    "input_description": "Hãy giúp chúng tôi hiểu rõ vấn đề hơn.",
+    "button_copy": "Nộp"
+  },
+  "camera_denied_screen": {
+    "title": "Vui lòng cho phép quyền truy cập âm thanh và camera",
+    "subtitle": "Cách để sửa?",
+    "description": "Ấn vào biểu tượng ổ khóa (🔒) trên thanh gõ địa chỉ của trình duyệt để cấp quyền truy cập âm thanh và video. Lưu và làm mới lại trang này.",
+    "second_solution_seperator": "hoặc",
+    "button_copy": "Tải video lên"
+  }
+}
